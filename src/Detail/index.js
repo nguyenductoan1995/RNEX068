@@ -1,20 +1,21 @@
+import { Block } from 'galio-framework'
 import { Context } from 'navigation/context'
 import Navigator from 'navigation/Navigator'
 import screens from 'navigation/screens'
 import React from 'react'
-import { Text, View } from 'react-native'
+import { Text } from 'react-native'
 
 function Detail() {
   const { authStack } = React.useContext(Context)
   return (
-    <View>
+    <Block center middle flex={1}>
       <Text onPress={authStack}>
         Detail
       </Text>
-      <Text onPress={() => Navigator.push(screens.Info)}>
+      <Text onPress={() => {}}>
         Info
       </Text>
-    </View>
+    </Block>
   )
 }
 export default Detail

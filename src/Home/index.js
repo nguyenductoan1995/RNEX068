@@ -1,14 +1,18 @@
 import { Context } from 'navigation/context'
 import React, { } from 'react'
-import { Text, View } from 'react-native'
+import { Text } from 'react-native'
+import { Block } from 'galio-framework'
+import { VectorIcon } from 'Components/common'
 
 function Home() {
   const { mainStack } = React.useContext(Context)
 
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <Block flex={1} center middle>
+      <VectorIcon name="facebook-square" type="ant" />
       <Text onPress={mainStack}>Toan</Text>
-    </View>
+    </Block>
+
   )
 }
 

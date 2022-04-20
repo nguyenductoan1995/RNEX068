@@ -1,11 +1,12 @@
+import { Block } from 'galio-framework'
 import React from 'react'
 import { Text, View } from 'react-native'
 
 function Info() {
   return (
-    <View>
+    <Block center middle flex={1}>
       <Text>Info</Text>
-    </View>
+    </Block>
   )
 }
 export default Info
