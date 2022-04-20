@@ -1,8 +1,9 @@
 // import Setting from './Setting';
 
-export const API_ROOT = `${'http://puffinca-staging.reliasoftware.com'}/rest/V1`
-export const API_ROOT_VN = `${'http://puffinca-staging.reliasoftware.com'}/rest/vn/V1`
+import Setting from './Setting'
 
+export const API_ROOT = `${Setting.Domain}/rest/V1`
+export const API_ROOT_VN = `${Setting.Domain}/rest/vn/V1`
 export const TIMEOUT = 10000
 
 export default {
