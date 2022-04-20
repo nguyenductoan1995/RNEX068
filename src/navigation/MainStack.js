@@ -1,7 +1,8 @@
-import Detail from 'Detail'
-import Info from 'Info'
+import Detail from 'Page/Detail'
+
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+import Info from 'Page/Info'
 import screens from './screens'
 
 const Tab = createBottomTabNavigator()

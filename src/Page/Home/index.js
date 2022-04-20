@@ -1,11 +1,19 @@
 import { Context } from 'navigation/context'
-import React, { } from 'react'
+import React, { useEffect } from 'react'
 import { Text } from 'react-native'
 import { Block } from 'galio-framework'
 import { VectorIcon } from 'Components/common'
+import { useLogin } from 'Store/hook/auth'
 
 function Home() {
   const { mainStack } = React.useContext(Context)
+  const login = useLogin()
+
+  useEffect(() => {
+    login({
+      username: 'toanDev@gmail.com', password: 'Toan12345',
+    })
+  }, [])
 
   return (
     <Block flex={1} center middle>
