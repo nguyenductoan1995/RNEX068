@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { API_ROOT, API_ROOT_VN, TIMEOUT } from 'Config/API'
+import { API_ROOT, API_ROOT_VN, TIMEOUT } from 'config/API'
 
 const instance = axios.create({
   baseURL: API_ROOT,

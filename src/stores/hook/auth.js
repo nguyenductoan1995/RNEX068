@@ -1,4 +1,4 @@
-import { GET_ME, SIGN_IN } from 'Store/actions/auth'
+import { GET_ME, SIGN_IN } from 'stores/actions/auth'
 
 const { useDispatch } = require('react-redux')
 

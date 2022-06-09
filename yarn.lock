@@ -6027,6 +6027,11 @@ react-native-animatable@1.3.3:
   dependencies:
     prop-types "^15.7.2"
 
+react-native-ble-manager@^8.3.0:
+  version "8.3.0"
+  resolved "https://registry.npmjs.org/react-native-ble-manager/-/react-native-ble-manager-8.3.0.tgz#851ab14ff33d9cbc9fd86d6c1f5938952f5c1c61"
+  integrity sha512-h98Fp5Dn7Tfb9key4zZRD0BBc+K6KaYE+OmqmPo6asuQK6lheRT0vxuLli7hY4XQQQO3V+MQ8lkSflKgAgnUwQ==
+
 react-native-codegen@^0.0.13:
   version "0.0.13"
   resolved "https://registry.yarnpkg.com/react-native-codegen/-/react-native-codegen-0.0.13.tgz#4cc94546fc75a5dbe9350d59c10108f2efe6bc17"

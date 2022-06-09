@@ -9,9 +9,9 @@
 import React from 'react'
 // import { View } from 'react-native'
 import { Provider } from 'react-redux'
-import _configureStore from 'Store/configStore'
+import _configureStore from 'stores/configStore'
 import { PersistGate } from 'redux-persist/integration/react'
-import AppLoading from 'Page/AppLoading'
+import AppLoading from 'pages/AppLoading'
 import { setDefaultBaseURL, setDefaultHeaders } from 'utilities/function/Axios'
 
 function App() {

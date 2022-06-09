@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import Home from 'Page/Home'
+import Home from 'pages/home'
 import screens from './screens'
 import { Context } from './context'
 import Navigator from './Navigator'

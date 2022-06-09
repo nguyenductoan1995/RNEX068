@@ -1,5 +1,5 @@
 import { createReducer } from '@reduxjs/toolkit'
-import { GET_ME, SIGN_IN } from 'Store/actions/auth'
+import { GET_ME, SIGN_IN } from 'stores/actions/auth'
 import { setDefaultHeaders } from 'utilities/function/Axios'
 import { buildRequestReducer } from 'utilities/function/ReduxReducer'
 

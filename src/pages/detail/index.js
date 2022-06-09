@@ -2,7 +2,7 @@ import { Block } from 'galio-framework'
 import { Context } from 'navigation/context'
 import React, { useEffect } from 'react'
 import { Text } from 'react-native'
-import { getMe } from 'Store/hook/auth'
+import { getMe } from 'stores/hook/auth'
 
 function Detail() {
   const { authStack } = React.useContext(Context)

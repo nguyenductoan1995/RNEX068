@@ -1,8 +1,8 @@
 import { put, takeEvery } from '@redux-saga/core/effects'
-import { API } from 'Config'
-import { Loading } from 'Page/Global'
+import { API } from 'config'
+import { Loading } from 'pages/Global'
 import { request } from 'utilities/function/Request'
-import { GET_ME, SIGN_IN } from 'Store/actions/auth'
+import { GET_ME, SIGN_IN } from 'stores/actions/auth'
 
 function* signIn(action) {
   const { payload } = action
